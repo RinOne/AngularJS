@@ -11,6 +11,7 @@
   "scripts": {
     "test": "gulp karma",
     "start": "gulp server",
+    "build": "gulp",
     "lint": "gulp lint"
   },
   "dependencies": {

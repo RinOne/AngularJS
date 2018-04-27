@@ -1,4 +1,6 @@
 # R in One
+[![Build Status](https://travis-ci.org/RinOne/AngularJS.svg?branch=master)](https://travis-ci.org/RinOne/AngularJS)
+
 This is an AngularJS example provided for Programmez.com magazine
 
 ### Run Project
