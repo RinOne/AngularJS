@@ -1,6 +1,8 @@
 # R in One
 [![Build Status](https://travis-ci.org/RinOne/AngularJS.svg?branch=master)](https://travis-ci.org/RinOne/AngularJS)
 [![Coverage Status](https://coveralls.io/repos/github/RinOne/AngularJS/badge.svg)](https://coveralls.io/github/RinOne/AngularJS)
+[![dependencies Status](https://david-dm.org/RinOne/AngularJS/status.svg)](https://david-dm.org/RinOne/AngularJS)
+[![devDependencies Status](https://david-dm.org/RinOne/AngularJS/dev-status.svg)](https://david-dm.org/RinOne/AngularJS?type=dev)
 
 This is an AngularJS example provided for Programmez.com magazine
 
