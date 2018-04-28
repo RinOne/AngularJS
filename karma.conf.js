@@ -15,7 +15,7 @@ module.exports = function(config) {
     ],
     preprocessors: {
       'src/app.js': ['babel'],
-      'src/**/*.js': ['babel'],
+      'src/**/*.js': ['babel', 'coverage'],
       'src/**/*.spec.js': ['babel'],
       'src/**/*.html': ['ng-html2js']
     },
@@ -23,7 +23,7 @@ module.exports = function(config) {
       stripPrefix: 'src/',
       moduleName: 'app'
     },
-    reporters: ['mocha'],
+    reporters: ['mocha', 'coverage'],
     mochaReporter: {
       colors: {
         success: 'green',
@@ -31,6 +31,10 @@ module.exports = function(config) {
         warning: 'cyan',
         error: 'red'
       }
+    },
+    coverageReporter: {
+      type: 'lcov',
+      dir: 'coverage/'
     },
     port: 9876,
     colors: true,
